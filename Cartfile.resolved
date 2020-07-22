@@ -1,0 +1,4 @@
+github "Alamofire/Alamofire" "4.9.1"
+github "ReactiveX/RxSwift" "5.1.1"
+github "airbnb/lottie-ios" "eebcf80fa5c502159f9f61cbf84551766d8e2832"
+github "ashleymills/Reachability.swift" "v5.0.0"

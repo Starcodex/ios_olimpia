@@ -7,10 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B95F6DB224C65CD60089001C /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B95F6DB024C65CD60089001C /* Lottie.framework */; };
+		B95F6DB324C65CD60089001C /* Lottie.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B95F6DB024C65CD60089001C /* Lottie.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B95F6DB424C65CD60089001C /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B95F6DB124C65CD60089001C /* Alamofire.framework */; };
+		B95F6DB524C65CD60089001C /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B95F6DB124C65CD60089001C /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B95F6DB924C65E4B0089001C /* splash_screen.json in Resources */ = {isa = PBXBuildFile; fileRef = B95F6DB824C65E4B0089001C /* splash_screen.json */; };
+		B95F6DBB24C6651C0089001C /* StepContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95F6DBA24C6651C0089001C /* StepContainerController.swift */; };
+		B95F6DBD24C6653C0089001C /* StepForm.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B95F6DBC24C6653C0089001C /* StepForm.storyboard */; };
+		B95F6DC024C66B220089001C /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95F6DBF24C66B220089001C /* HomeController.swift */; };
+		B95F6DC224C66B540089001C /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B95F6DC124C66B540089001C /* Home.storyboard */; };
+		B95F6DC524C67A100089001C /* StepDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95F6DC424C67A100089001C /* StepDataController.swift */; };
+		B95F6DC724C67EE40089001C /* StepPictureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95F6DC624C67EE40089001C /* StepPictureController.swift */; };
+		B95F6DCD24C67F640089001C /* StepGeoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95F6DCC24C67F640089001C /* StepGeoController.swift */; };
+		B95F6DCF24C67F7B0089001C /* StepStatusController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95F6DCE24C67F7B0089001C /* StepStatusController.swift */; };
+		B95F6DD124C67F890089001C /* StepSaveController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95F6DD024C67F890089001C /* StepSaveController.swift */; };
+		B95F6DD624C6E9AF0089001C /* ImagePickerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95F6DD524C6E9AF0089001C /* ImagePickerManager.swift */; };
+		B95F6DD824C75A0A0089001C /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B95F6DD724C75A0A0089001C /* Reachability.framework */; };
+		B95F6DD924C75A0A0089001C /* Reachability.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B95F6DD724C75A0A0089001C /* Reachability.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B95F6DF224C7889A0089001C /* AuthDataAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95F6DF124C7889A0089001C /* AuthDataAccess.swift */; };
+		B95F6DF424C7A5090089001C /* UserAppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95F6DF324C7A5090089001C /* UserAppInfo.swift */; };
+		B95F6DF624C7A6BA0089001C /* StepContainerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95F6DF524C7A6BA0089001C /* StepContainerDelegate.swift */; };
+		B95F6DF924C7BF380089001C /* StepContainerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95F6DF524C7A6BA0089001C /* StepContainerDelegate.swift */; };
+		B95F6DFA24C7BF390089001C /* StepContainerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95F6DF524C7A6BA0089001C /* StepContainerDelegate.swift */; };
+		B95F6DFD24C7C5D90089001C /* NsMutableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95F6DFC24C7C5D90089001C /* NsMutableExtension.swift */; };
 		B9C6B58524C6171600EB00F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C6B58424C6171600EB00F5 /* AppDelegate.swift */; };
 		B9C6B58724C6171600EB00F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C6B58624C6171600EB00F5 /* SceneDelegate.swift */; };
-		B9C6B58924C6171600EB00F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C6B58824C6171600EB00F5 /* ViewController.swift */; };
-		B9C6B58C24C6171600EB00F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9C6B58A24C6171600EB00F5 /* Main.storyboard */; };
+		B9C6B58924C6171600EB00F5 /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C6B58824C6171600EB00F5 /* SplashController.swift */; };
+		B9C6B58C24C6171600EB00F5 /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9C6B58A24C6171600EB00F5 /* Splash.storyboard */; };
 		B9C6B58E24C6171800EB00F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9C6B58D24C6171800EB00F5 /* Assets.xcassets */; };
 		B9C6B59124C6171800EB00F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9C6B58F24C6171800EB00F5 /* LaunchScreen.storyboard */; };
 		B9C6B59C24C6171900EB00F5 /* OlimpiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C6B59B24C6171900EB00F5 /* OlimpiaTests.swift */; };
@@ -34,12 +57,48 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B95F6DB624C65CD60089001C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B95F6DB324C65CD60089001C /* Lottie.framework in Embed Frameworks */,
+				B95F6DD924C75A0A0089001C /* Reachability.framework in Embed Frameworks */,
+				B95F6DB524C65CD60089001C /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		B95F6DAE24C65CCF0089001C /* Lottie.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Lottie.framework.dSYM; path = Carthage/Build/iOS/Lottie.framework.dSYM; sourceTree = "<group>"; };
+		B95F6DAF24C65CCF0089001C /* Alamofire.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Alamofire.framework.dSYM; path = Carthage/Build/iOS/Alamofire.framework.dSYM; sourceTree = "<group>"; };
+		B95F6DB024C65CD60089001C /* Lottie.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Lottie.framework; path = Carthage/Build/iOS/Lottie.framework; sourceTree = "<group>"; };
+		B95F6DB124C65CD60089001C /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		B95F6DB824C65E4B0089001C /* splash_screen.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = splash_screen.json; path = ../../../../../Home/Downloads/splash_screen.json; sourceTree = "<group>"; };
+		B95F6DBA24C6651C0089001C /* StepContainerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepContainerController.swift; sourceTree = "<group>"; };
+		B95F6DBC24C6653C0089001C /* StepForm.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StepForm.storyboard; sourceTree = "<group>"; };
+		B95F6DBF24C66B220089001C /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		B95F6DC124C66B540089001C /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		B95F6DC424C67A100089001C /* StepDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepDataController.swift; sourceTree = "<group>"; };
+		B95F6DC624C67EE40089001C /* StepPictureController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepPictureController.swift; sourceTree = "<group>"; };
+		B95F6DCC24C67F640089001C /* StepGeoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepGeoController.swift; sourceTree = "<group>"; };
+		B95F6DCE24C67F7B0089001C /* StepStatusController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepStatusController.swift; sourceTree = "<group>"; };
+		B95F6DD024C67F890089001C /* StepSaveController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepSaveController.swift; sourceTree = "<group>"; };
+		B95F6DD524C6E9AF0089001C /* ImagePickerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerManager.swift; sourceTree = "<group>"; };
+		B95F6DD724C75A0A0089001C /* Reachability.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reachability.framework; path = Carthage/Build/iOS/Reachability.framework; sourceTree = "<group>"; };
+		B95F6DF124C7889A0089001C /* AuthDataAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthDataAccess.swift; sourceTree = "<group>"; };
+		B95F6DF324C7A5090089001C /* UserAppInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAppInfo.swift; sourceTree = "<group>"; };
+		B95F6DF524C7A6BA0089001C /* StepContainerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepContainerDelegate.swift; sourceTree = "<group>"; };
+		B95F6DFC24C7C5D90089001C /* NsMutableExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NsMutableExtension.swift; sourceTree = "<group>"; };
 		B9C6B58124C6171600EB00F5 /* Olimpia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Olimpia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9C6B58424C6171600EB00F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9C6B58624C6171600EB00F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B9C6B58824C6171600EB00F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B9C6B58B24C6171600EB00F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9C6B58824C6171600EB00F5 /* SplashController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = "<group>"; };
+		B9C6B58B24C6171600EB00F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Splash.storyboard; sourceTree = "<group>"; };
 		B9C6B58D24C6171800EB00F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9C6B59024C6171800EB00F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9C6B59224C6171800EB00F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,6 +115,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B95F6DB224C65CD60089001C /* Lottie.framework in Frameworks */,
+				B95F6DD824C75A0A0089001C /* Reachability.framework in Frameworks */,
+				B95F6DB424C65CD60089001C /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +138,153 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B95F6DAA24C6536D0089001C /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				B95F6DD224C6D04E0089001C /* util */,
+				B95F6DBE24C66B030089001C /* home */,
+				B95F6DAC24C653980089001C /* stepform */,
+				B95F6DAB24C653850089001C /* splash */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		B95F6DAB24C653850089001C /* splash */ = {
+			isa = PBXGroup;
+			children = (
+				B9C6B58824C6171600EB00F5 /* SplashController.swift */,
+				B9C6B58A24C6171600EB00F5 /* Splash.storyboard */,
+			);
+			path = splash;
+			sourceTree = "<group>";
+		};
+		B95F6DAC24C653980089001C /* stepform */ = {
+			isa = PBXGroup;
+			children = (
+				B95F6DE424C782350089001C /* stepcontainer */,
+				B95F6DCB24C67F490089001C /* stepsave */,
+				B95F6DCA24C67F410089001C /* stepstatus */,
+				B95F6DC924C67F3B0089001C /* stepgeo */,
+				B95F6DC824C67F020089001C /* steppicture */,
+				B95F6DC324C679A20089001C /* stepdata */,
+				B95F6DBC24C6653C0089001C /* StepForm.storyboard */,
+			);
+			path = stepform;
+			sourceTree = "<group>";
+		};
+		B95F6DAD24C65CCF0089001C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B95F6DD724C75A0A0089001C /* Reachability.framework */,
+				B95F6DB124C65CD60089001C /* Alamofire.framework */,
+				B95F6DB024C65CD60089001C /* Lottie.framework */,
+				B95F6DAF24C65CCF0089001C /* Alamofire.framework.dSYM */,
+				B95F6DAE24C65CCF0089001C /* Lottie.framework.dSYM */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B95F6DB724C65E210089001C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B95F6DB824C65E4B0089001C /* splash_screen.json */,
+				B9C6B58D24C6171800EB00F5 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		B95F6DBE24C66B030089001C /* home */ = {
+			isa = PBXGroup;
+			children = (
+				B95F6DBF24C66B220089001C /* HomeController.swift */,
+				B95F6DC124C66B540089001C /* Home.storyboard */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		B95F6DC324C679A20089001C /* stepdata */ = {
+			isa = PBXGroup;
+			children = (
+				B95F6DC424C67A100089001C /* StepDataController.swift */,
+			);
+			path = stepdata;
+			sourceTree = "<group>";
+		};
+		B95F6DC824C67F020089001C /* steppicture */ = {
+			isa = PBXGroup;
+			children = (
+				B95F6DC624C67EE40089001C /* StepPictureController.swift */,
+			);
+			path = steppicture;
+			sourceTree = "<group>";
+		};
+		B95F6DC924C67F3B0089001C /* stepgeo */ = {
+			isa = PBXGroup;
+			children = (
+				B95F6DCC24C67F640089001C /* StepGeoController.swift */,
+			);
+			path = stepgeo;
+			sourceTree = "<group>";
+		};
+		B95F6DCA24C67F410089001C /* stepstatus */ = {
+			isa = PBXGroup;
+			children = (
+				B95F6DCE24C67F7B0089001C /* StepStatusController.swift */,
+			);
+			path = stepstatus;
+			sourceTree = "<group>";
+		};
+		B95F6DCB24C67F490089001C /* stepsave */ = {
+			isa = PBXGroup;
+			children = (
+				B95F6DD024C67F890089001C /* StepSaveController.swift */,
+			);
+			path = stepsave;
+			sourceTree = "<group>";
+		};
+		B95F6DD224C6D04E0089001C /* util */ = {
+			isa = PBXGroup;
+			children = (
+				B95F6DD524C6E9AF0089001C /* ImagePickerManager.swift */,
+				B95F6DFC24C7C5D90089001C /* NsMutableExtension.swift */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		B95F6DE424C782350089001C /* stepcontainer */ = {
+			isa = PBXGroup;
+			children = (
+				B95F6DBA24C6651C0089001C /* StepContainerController.swift */,
+			);
+			path = stepcontainer;
+			sourceTree = "<group>";
+		};
+		B95F6DEB24C783710089001C /* models */ = {
+			isa = PBXGroup;
+			children = (
+				B95F6DED24C783850089001C /* stepform */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		B95F6DED24C783850089001C /* stepform */ = {
+			isa = PBXGroup;
+			children = (
+				B95F6DEE24C783950089001C /* stepcontainer */,
+			);
+			path = stepform;
+			sourceTree = "<group>";
+		};
+		B95F6DEE24C783950089001C /* stepcontainer */ = {
+			isa = PBXGroup;
+			children = (
+				B95F6DF124C7889A0089001C /* AuthDataAccess.swift */,
+				B95F6DF324C7A5090089001C /* UserAppInfo.swift */,
+				B95F6DF524C7A6BA0089001C /* StepContainerDelegate.swift */,
+			);
+			path = stepcontainer;
+			sourceTree = "<group>";
+		};
 		B9C6B57824C6171600EB00F5 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +292,7 @@
 				B9C6B59A24C6171900EB00F5 /* OlimpiaTests */,
 				B9C6B5A524C6171900EB00F5 /* OlimpiaUITests */,
 				B9C6B58224C6171600EB00F5 /* Products */,
+				B95F6DAD24C65CCF0089001C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,11 +309,11 @@
 		B9C6B58324C6171600EB00F5 /* Olimpia */ = {
 			isa = PBXGroup;
 			children = (
+				B95F6DEB24C783710089001C /* models */,
+				B95F6DAA24C6536D0089001C /* ui */,
 				B9C6B58424C6171600EB00F5 /* AppDelegate.swift */,
 				B9C6B58624C6171600EB00F5 /* SceneDelegate.swift */,
-				B9C6B58824C6171600EB00F5 /* ViewController.swift */,
-				B9C6B58A24C6171600EB00F5 /* Main.storyboard */,
-				B9C6B58D24C6171800EB00F5 /* Assets.xcassets */,
+				B95F6DB724C65E210089001C /* Assets */,
 				B9C6B58F24C6171800EB00F5 /* LaunchScreen.storyboard */,
 				B9C6B59224C6171800EB00F5 /* Info.plist */,
 			);
@@ -138,6 +348,7 @@
 				B9C6B57D24C6171600EB00F5 /* Sources */,
 				B9C6B57E24C6171600EB00F5 /* Frameworks */,
 				B9C6B57F24C6171600EB00F5 /* Resources */,
+				B95F6DB624C65CD60089001C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,9 +443,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B95F6DB924C65E4B0089001C /* splash_screen.json in Resources */,
 				B9C6B59124C6171800EB00F5 /* LaunchScreen.storyboard in Resources */,
+				B95F6DBD24C6653C0089001C /* StepForm.storyboard in Resources */,
+				B95F6DC224C66B540089001C /* Home.storyboard in Resources */,
 				B9C6B58E24C6171800EB00F5 /* Assets.xcassets in Resources */,
-				B9C6B58C24C6171600EB00F5 /* Main.storyboard in Resources */,
+				B9C6B58C24C6171600EB00F5 /* Splash.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +473,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9C6B58924C6171600EB00F5 /* ViewController.swift in Sources */,
+				B95F6DD624C6E9AF0089001C /* ImagePickerManager.swift in Sources */,
+				B95F6DFD24C7C5D90089001C /* NsMutableExtension.swift in Sources */,
+				B9C6B58924C6171600EB00F5 /* SplashController.swift in Sources */,
+				B95F6DF424C7A5090089001C /* UserAppInfo.swift in Sources */,
 				B9C6B58524C6171600EB00F5 /* AppDelegate.swift in Sources */,
+				B95F6DF624C7A6BA0089001C /* StepContainerDelegate.swift in Sources */,
 				B9C6B58724C6171600EB00F5 /* SceneDelegate.swift in Sources */,
+				B95F6DBB24C6651C0089001C /* StepContainerController.swift in Sources */,
+				B95F6DF224C7889A0089001C /* AuthDataAccess.swift in Sources */,
+				B95F6DD124C67F890089001C /* StepSaveController.swift in Sources */,
+				B95F6DC024C66B220089001C /* HomeController.swift in Sources */,
+				B95F6DCD24C67F640089001C /* StepGeoController.swift in Sources */,
+				B95F6DC724C67EE40089001C /* StepPictureController.swift in Sources */,
+				B95F6DCF24C67F7B0089001C /* StepStatusController.swift in Sources */,
+				B95F6DC524C67A100089001C /* StepDataController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +495,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B95F6DF924C7BF380089001C /* StepContainerDelegate.swift in Sources */,
 				B9C6B59C24C6171900EB00F5 /* OlimpiaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +504,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B95F6DFA24C7BF390089001C /* StepContainerDelegate.swift in Sources */,
 				B9C6B5A724C6171900EB00F5 /* OlimpiaUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,12 +525,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B9C6B58A24C6171600EB00F5 /* Main.storyboard */ = {
+		B9C6B58A24C6171600EB00F5 /* Splash.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B9C6B58B24C6171600EB00F5 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Splash.storyboard;
 			sourceTree = "<group>";
 		};
 		B9C6B58F24C6171800EB00F5 /* LaunchScreen.storyboard */ = {
@@ -435,12 +663,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CPLK7F3HXT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Olimpia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.starcodex.Olimpia;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.starcodex.olimpia-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -452,12 +685,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CPLK7F3HXT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Olimpia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.starcodex.Olimpia;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.starcodex.olimpia-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

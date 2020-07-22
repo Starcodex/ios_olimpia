@@ -1,0 +1,11 @@
+{
+  "commitish" : "v5.0.0",
+  "iOS" : [
+    {
+      "hash" : "1d6f285bdba4882a9e08f6b70663476d2df39a152b5aaed12808abebbf279fb5",
+      "name" : "Reachability",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+    }
+  ]
+}
